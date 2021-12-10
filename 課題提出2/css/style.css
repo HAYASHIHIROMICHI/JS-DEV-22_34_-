@@ -1,0 +1,74 @@
+
+
+body {
+    max-width: 100%;
+    font-family: "Open Sans", "メイリオ";
+    width: 1200px;
+    margin: auto;
+  }
+  
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 50px auto;
+    background-color: rgb(226, 11, 11);
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 25px 25px;
+  }
+  
+  .textcenter {
+    text-align: center;
+  }
+  
+
+  .HIKAKIN
+  {
+    display: flex;
+    max-width: 150%;
+    padding: 30px;
+    justify-content: space-between;
+    background-color: rgb(184, 184, 179);
+   
+  }
+  
+  .hyouji {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .hyouji_item {
+    width: calc(100% / 2);
+    font-size: 25px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-bottom: 25px;
+  }
+  
+  .kekka {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 25px;
+    background-color: rgb(226, 255, 147);
+  }
+  
+  .vs {
+    padding: 25px;
+  }
+  
+  .vs2 {
+    vertical-align: middle;
+  }
+  .copyrights{
+    text-align: center;
+    color: #010101de;
+}
+  

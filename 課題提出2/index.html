@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ヒカキンジャンケンゲーム</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  
+<body>
+    <header>
+      <h1 class="textcenter">ヒカキンジャンケンゲーム</h1>
+    </header>
+
+    <main>
+      <div>
+        <p class="textcenter">下の画像から選択してヒカキンに勝ってね！</p>
+        <ul class="HIKAKIN">
+          <li id="gu_pic"><img src="img/gu.png" alt="グー" /></li>
+          <li id="cho_pic"><img src="img/choki.png" alt="チョキ" /></li>
+          <li id="par_pic"><img src="img/pah.png" alt="パー" /></li>
+        </ul>
+      </div>
+
+      <div class="vs">
+        <ul class="hyouji textcenter">
+          <li class="hyouji_item"><h4>あなた</h4></li>
+          <li class="hyouji_item"><h4>ヒカキン</h4></li>
+        </ul>
+      </div>
+
+      <div class="vs2">
+        <ul class="hyouji textcenter">
+          <li class="hyouji_item textcenter" id="me"><img src="img/seikin.png" alt="seikin"></li>
+          <li class="hyouji_item textcenter" id="pc"><img src="img/seikin.png" alt="seikin"></li>
+        </ul>
+      </div>
+      <div class="kekka textcenter" id="result">ヒカキンに勝てたかな？</div>
+    </main>
+
+    <footer class="footer">
+      <p class="copyrights">copyrights　HIKAKIN</p>
+    </footer>  
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+     <script src="js/janken.js"></script>
+    <footer></footer>
+  </body>
+</html>
